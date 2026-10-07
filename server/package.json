@@ -1,0 +1,16 @@
+{
+  "name": "agent-pager-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "agent-pager": "file:..",
+    "dotenv": "^17.2.0",
+    "express": "^5.2.1"
+  }
+}

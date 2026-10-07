@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Launchpad · Sign up</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">Launchpad</p>
+    <h1>Idea tonight. Live by morning.</h1>
+    <p class="sub">Free for side projects. No card needed.</p>
+    <form id="signup" novalidate>
+      <label>Name <input name="name" autocomplete="name" /></label>
+      <small data-error="name"></small>
+      <label>Email <input name="email" type="email" autocomplete="email" /></label>
+      <small data-error="email"></small>
+      <label>Password <input name="password" type="password" autocomplete="new-password" /></label>
+      <small data-error="password"></small>
+      <p class="strength">Strength: <b id="strength">–</b></p>
+      <button type="submit" class="signup-btn">Sign up</button>
+      <p class="button-subtitle">Sign up</p>
+    </form>
+    <p id="done" class="done" hidden>You're in. Check your inbox.</p>
+  </main>
+  <script type="module">
+    import { validateSignup, passwordStrength } from "./validate.js";
+    const form = document.getElementById("signup");
+    form.password.addEventListener("input", (e) => (document.getElementById("strength").textContent = passwordStrength(e.target.value)));
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(form));
+      const { ok, errors } = validateSignup(data);
+      document.querySelectorAll("[data-error]").forEach((el) => (el.textContent = errors[el.dataset.error] || ""));
+      if (ok) { form.hidden = true; document.getElementById("done").hidden = false; }
+    });
+  </script>
+</body>
+</html>

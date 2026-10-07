@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 690" font-family="system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<defs>
+<marker id="m-coral" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#ff6b4a"/></marker>
+<marker id="m-violet" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#8f74ff"/></marker>
+<marker id="m-sky" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#4ad6ff"/></marker>
+<marker id="m-lime" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#c6f24e"/></marker>
+<radialGradient id="g1" cx="10%" cy="0%" r="60%"><stop offset="0" stop-color="#ff6b4a" stop-opacity=".35"/><stop offset="1" stop-color="#ff6b4a" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="95%" cy="30%" r="55%"><stop offset="0" stop-color="#7c5cff" stop-opacity=".35"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+<radialGradient id="g3" cx="50%" cy="100%" r="55%"><stop offset="0" stop-color="#4ad6ff" stop-opacity=".22"/><stop offset="1" stop-color="#4ad6ff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1160" height="690" rx="22" fill="#0d0b14"/><rect width="1160" height="690" rx="22" fill="url(#g1)"/><rect width="1160" height="690" rx="22" fill="url(#g2)"/><rect width="1160" height="690" rx="22" fill="url(#g3)"/>
+<text x="34" y="44" fill="#f4f1ff" font-size="22" font-weight="700">Agent Pager</text>
+<text x="34" y="68" fill="#a59fbf" font-size="14">how a chat message becomes a reviewed commit</text>
+<rect x="30" y="90" width="300" height="440" rx="18" fill="#ff6b4a" fill-opacity=".05" stroke="#ff6b4a" stroke-opacity=".55" stroke-dasharray="6 6"/>
+<text x="52" y="116" fill="#ff6b4a" font-size="13" font-weight="700" letter-spacing=".3">BROWSER / PHONE</text>
+<rect x="430" y="90" width="300" height="440" rx="18" fill="#8f74ff" fill-opacity=".05" stroke="#8f74ff" stroke-opacity=".55" stroke-dasharray="6 6"/>
+<text x="452" y="116" fill="#8f74ff" font-size="13" font-weight="700" letter-spacing=".3">COMETCHAT CLOUD</text>
+<rect x="830" y="90" width="300" height="440" rx="18" fill="#4ad6ff" fill-opacity=".05" stroke="#4ad6ff" stroke-opacity=".55" stroke-dasharray="6 6"/>
+<text x="852" y="116" fill="#4ad6ff" font-size="13" font-weight="700" letter-spacing=".3">YOUR LAPTOP</text>
+<rect x="60" y="130" width="240" height="52" rx="12" fill="#ff6b4a" fill-opacity=".16" stroke="#ff6b4a"/>
+<text x="76" y="152" fill="#f4f1ff" font-size="14" font-weight="600">Chat UI</text><text x="76" y="170" fill="#b9b3d0" font-size="12">React + Vite, mobile first</text>
+<rect x="60" y="196" width="240" height="52" rx="12" fill="#ff6b4a" fill-opacity=".16" stroke="#ff6b4a"/>
+<text x="76" y="218" fill="#f4f1ff" font-size="14" font-weight="600">CometChat JS SDK</text><text x="76" y="236" fill="#b9b3d0" font-size="12">live messages, typing, presence</text>
+<rect x="60" y="262" width="240" height="52" rx="12" fill="#ff6b4a" fill-opacity=".16" stroke="#ff6b4a"/>
+<text x="76" y="284" fill="#f4f1ff" font-size="14" font-weight="600">Result card</text><text x="76" y="302" fill="#b9b3d0" font-size="12">summary · diff · tests · Ship it</text>
+<rect x="60" y="460" width="240" height="52" rx="12" fill="#ff6b4a" fill-opacity=".16" stroke="#ff6b4a"/>
+<text x="76" y="482" fill="#f4f1ff" font-size="14" font-weight="600">Live preview tab</text><text x="76" y="500" fill="#b9b3d0" font-size="12">reloads when the agent saves</text>
+<rect x="460" y="130" width="240" height="52" rx="12" fill="#8f74ff" fill-opacity=".16" stroke="#8f74ff"/>
+<text x="476" y="152" fill="#f4f1ff" font-size="14" font-weight="600">Users</text><text x="476" y="170" fill="#b9b3d0" font-size="12">Hridya · Sam · Pager (the agent)</text>
+<rect x="460" y="196" width="240" height="52" rx="12" fill="#8f74ff" fill-opacity=".16" stroke="#8f74ff"/>
+<text x="476" y="218" fill="#f4f1ff" font-size="14" font-weight="600">Group "ship-it"</text><text x="476" y="236" fill="#b9b3d0" font-size="12">private, 3 members</text>
+<rect x="460" y="262" width="240" height="52" rx="12" fill="#8f74ff" fill-opacity=".16" stroke="#8f74ff"/>
+<text x="476" y="284" fill="#f4f1ff" font-size="14" font-weight="600">REST API</text><text x="476" y="302" fill="#b9b3d0" font-size="12">send as the agent, list messages</text>
+<rect x="460" y="328" width="240" height="52" rx="12" fill="#8f74ff" fill-opacity=".16" stroke="#8f74ff"/>
+<text x="476" y="359" fill="#f4f1ff" font-size="14" font-weight="600">Reactions · typing · presence</text>
+<rect x="860" y="130" width="240" height="52" rx="12" fill="#4ad6ff" fill-opacity=".16" stroke="#4ad6ff"/>
+<text x="876" y="152" fill="#f4f1ff" font-size="14" font-weight="600">Express server</text><text x="876" y="170" fill="#b9b3d0" font-size="12">/api/token, /api/status, /preview</text>
+<rect x="860" y="196" width="240" height="52" rx="12" fill="#4ad6ff" fill-opacity=".16" stroke="#4ad6ff"/>
+<text x="876" y="218" fill="#f4f1ff" font-size="14" font-weight="600">Allowlist</text><text x="876" y="236" fill="#b9b3d0" font-size="12">only Hridya and Sam can give orders</text>
+<rect x="860" y="262" width="240" height="52" rx="12" fill="#4ad6ff" fill-opacity=".16" stroke="#4ad6ff"/>
+<text x="876" y="284" fill="#f4f1ff" font-size="14" font-weight="600">brain.js</text><text x="876" y="302" fill="#b9b3d0" font-size="12">poll · route · throttle status</text>
+<rect x="860" y="328" width="240" height="52" rx="12" fill="#4ad6ff" fill-opacity=".16" stroke="#4ad6ff"/>
+<text x="876" y="350" fill="#f4f1ff" font-size="14" font-weight="600">agent.js</text><text x="876" y="368" fill="#b9b3d0" font-size="12">spawns claude -p, reads its steps</text>
+<rect x="860" y="394" width="240" height="52" rx="12" fill="#c6f24e" fill-opacity=".16" stroke="#c6f24e"/>
+<text x="876" y="416" fill="#f4f1ff" font-size="14" font-weight="600">Claude Code</text><text x="876" y="434" fill="#b9b3d0" font-size="12">cwd = workspace/, limited tools</text>
+<rect x="860" y="460" width="240" height="52" rx="12" fill="#c6f24e" fill-opacity=".16" stroke="#c6f24e"/>
+<text x="876" y="482" fill="#f4f1ff" font-size="14" font-weight="600">workspace/</text><text x="876" y="500" fill="#b9b3d0" font-size="12">demo app · git history · npm test</text>
+<line x1="300" y1="222" x2="460" y2="222" stroke="#8f74ff" stroke-width="2.2" marker-end="url(#m-violet)" marker-start="url(#m-violet)"/>
+<text x="380" y="199" fill="#8f74ff" font-size="12" font-weight="600" text-anchor="middle">realtime</text>
+<text x="380" y="212" fill="#b9b3d0" font-size="11" text-anchor="middle">messages, typing, reactions</text>
+<line x1="860" y1="156" x2="700" y2="156" stroke="#4ad6ff" stroke-width="2.2" marker-end="url(#m-sky)"/>
+<text x="780" y="133" fill="#4ad6ff" font-size="12" font-weight="600" text-anchor="middle">mint auth token</text>
+<text x="780" y="146" fill="#b9b3d0" font-size="11" text-anchor="middle">key stays server-side</text>
+<line x1="700" y1="288" x2="860" y2="288" stroke="#4ad6ff" stroke-width="2.2" marker-end="url(#m-sky)" marker-start="url(#m-sky)"/>
+<text x="780" y="263" fill="#4ad6ff" font-size="12" font-weight="600" text-anchor="middle">poll + send as agent</text>
+<text x="780" y="276" fill="#b9b3d0" font-size="11" text-anchor="middle">every 1.5 s, REST</text>
+<line x1="980" y1="182" x2="980" y2="196" stroke="#4ad6ff" stroke-width="2.2" marker-end="url(#m-sky)"/>
+<line x1="980" y1="248" x2="980" y2="262" stroke="#4ad6ff" stroke-width="2.2" marker-end="url(#m-sky)"/>
+<line x1="980" y1="314" x2="980" y2="328" stroke="#4ad6ff" stroke-width="2.2" marker-end="url(#m-sky)"/>
+<line x1="980" y1="380" x2="980" y2="394" stroke="#c6f24e" stroke-width="2.2" marker-end="url(#m-lime)"/>
+<line x1="980" y1="446" x2="980" y2="460" stroke="#c6f24e" stroke-width="2.2" marker-end="url(#m-lime)"/>
+<path d="M980 512 V 565 H 180 V 516" fill="none" stroke="#c6f24e" stroke-width="2.2" stroke-dasharray="2 6" stroke-linecap="round" marker-end="url(#m-lime)"/>
+<text x="580" y="558" fill="#c6f24e" font-size="12" font-weight="600" text-anchor="middle">file change → live preview reloads</text>
+<circle cx="48" cy="624" r="14" fill="#ff6b4a"/><text x="48" y="629" text-anchor="middle" font-size="14" font-weight="800" fill="#0d0b14">1</text>
+<text x="70" y="629" fill="#e6e1f5" font-size="13">You message @Pager</text>
+<circle cx="274" cy="624" r="14" fill="#4ad6ff"/><text x="274" y="629" text-anchor="middle" font-size="14" font-weight="800" fill="#0d0b14">2</text>
+<text x="296" y="629" fill="#e6e1f5" font-size="13">Server sees it, checks allowlist</text>
+<circle cx="500" cy="624" r="14" fill="#c6f24e"/><text x="500" y="629" text-anchor="middle" font-size="14" font-weight="800" fill="#0d0b14">3</text>
+<text x="522" y="629" fill="#e6e1f5" font-size="13">Claude edits the repo, tests run</text>
+<circle cx="726" cy="624" r="14" fill="#8f74ff"/><text x="726" y="629" text-anchor="middle" font-size="14" font-weight="800" fill="#0d0b14">4</text>
+<text x="748" y="629" fill="#e6e1f5" font-size="13">Result card lands in the chat</text>
+<circle cx="952" cy="624" r="14" fill="#ff6b4a"/><text x="952" y="629" text-anchor="middle" font-size="14" font-weight="800" fill="#0d0b14">5</text>
+<text x="974" y="629" fill="#e6e1f5" font-size="13">Teammate taps Ship it</text>
+<text x="34" y="668" fill="#8d87a6" font-size="12">Nothing is committed until a human approves. Claude only touches workspace/. git push, rm and web access are blocked.</text>
+</svg>
